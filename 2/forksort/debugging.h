@@ -1,6 +1,6 @@
 /**
- * @author Jonas Müller, 12223225
- * @date 2023-10-28
+ * @author Antonio Molina Gradischnig, 12421907
+ * @date 2025-10-28
  *
  * @brief This header file contains the debugging macros. 
  * @details This header file defines two debug macros, one for printing a simple message and one for printing a message with the file, line and function name. The macro only prints if the -DDEBUG flag is set during compilation.
