@@ -12,17 +12,17 @@
 
 #include <stddef.h>
 
-/** @brief Shared memory object name (prefixed with matriculation number). */
-#define SHM_NAME "/12345678_fas_shm"
+/** @brief Shared memory object name */
+#define SHM_NAME "/12421907_fas_shm"
 
 /** @brief Semaphore tracking free slots in the circular buffer. */
-#define SEM_FREE_NAME "/12345678_fas_sem_free"
+#define SEM_FREE_NAME "/12421907_fas_sem_free"
 
 /** @brief Semaphore tracking used slots in the circular buffer. */
-#define SEM_USED_NAME "/12345678_fas_sem_used"
+#define SEM_USED_NAME "/12421907_fas_sem_used"
 
 /** @brief Mutex semaphore protecting concurrent writes by generators. */
-#define SEM_MUTEX_NAME "/12345678_fas_sem_mutex"
+#define SEM_MUTEX_NAME "/12421907_fas_sem_mutex"
 
 /** @brief Maximum number of edges stored in a single feedback arc set solution. */
 #define MAX_SOLUTION_EDGES (8)
